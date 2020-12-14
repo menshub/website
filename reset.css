@@ -1,0 +1,77 @@
+/*box sizing*/
+html{
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+}
+/*body default*/
+body{
+    min-height:100vh;
+    text-rendering:optinizespeed;
+    line-height:1.5;
+}
+/*Margin and Padding*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+pre,
+blockquote,
+figure,
+figcaption,
+hr,
+dl,
+dd{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style:none;
+}
+/*forms*/
+input,
+textarea,
+select,
+button{
+    color:inherit;
+    font:inherit;
+    letter-spacing:inherit;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+}
+input,
+textarea,
+button{
+    border:1px solid #ccc ; 
+}
+button{
+    padding:0.75em 1em;
+    line-height:inherit;
+    border-radius:0;
+    background-color:transparent;
+}
+img,
+svg,
+iframe,
+video,
+object,
+embed{
+    display:block;
+    max-width:100%;
+}
+h4{
+    color:#000;
+}
